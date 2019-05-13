@@ -2,6 +2,7 @@
  * @author yinyachuan
  * @create 2019-05-10 10:57
  * @desc 反转单链表
+ * leetcode-cn: 206
  **/
 public class NodeReverseTest {
 
@@ -33,7 +34,7 @@ public class NodeReverseTest {
 
 
     /**
-     * 迭代法反转单链表.
+     * 迭代法反转单链表. 返回的Node是头结点的位置
      * @param head
      * @return
      */
@@ -62,7 +63,7 @@ public class NodeReverseTest {
     }
 
     /**
-     * 迭代法反转单链表.
+     * 迭代法反转单链表. 返回的Node是头结点的位置
      * 复杂度分析
      *  时间复杂度：O(n)，假设 n是列表的长度，时间复杂度是 O(n)。
      *  空间复杂度：O(1)
